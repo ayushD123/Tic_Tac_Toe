@@ -4,10 +4,10 @@
     android:layout_height="wrap_content"
     android:layout_margin="1dp"
 
-    android:background="#F44336"
+    android:background="#F5F1C8AD"
 
-    android:backgroundTint="#F44336"
-    android:foregroundTint="#FFFFFF"
+    android:backgroundTint="#F1C8AD"
+    android:foregroundTint="#F1C8AD"
     android:orientation="vertical">
 
 
@@ -32,21 +32,21 @@
         android:layout_margin="20dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="TextView"
-        android:textSize="20sp"
         android:padding="10dp"
+        android:text="TextView"
         android:textAlignment="center"
+        android:textSize="20sp"
         android:textStyle="bold|italic" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/retry"
-        android:textSize="30dp"
-        android:padding="10dp"
-        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Play Again"
-
+        android:layout_margin="5dp"
         android:background="@color/green"
-        android:backgroundTint="@color/green"/>
+        android:backgroundTint="@color/green"
+        android:padding="10dp"
+
+        android:text="Play Again"
+        android:textSize="30dp" />
 </LinearLayout>

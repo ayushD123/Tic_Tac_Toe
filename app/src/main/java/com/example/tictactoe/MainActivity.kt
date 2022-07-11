@@ -2,6 +2,7 @@ package com.example.tictactoe
 
 import android.app.Dialog
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,8 +17,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        linearlayout.setBackgroundColor(Color.WHITE);
+        linearlayout1.setBackgroundColor(Color.WHITE);
+        linearlayout2.setBackgroundColor(Color.WHITE);
+        linearlayout3.setBackgroundColor(Color.WHITE);
     }
+
     var cnt=0
 
     fun clickbtn(view: View) {
